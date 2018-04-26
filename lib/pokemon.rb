@@ -2,11 +2,11 @@ class Pokemon
 
   attr_accessor :name, :type, :db, :id
 
-  def initialize(db)
+  def initialize(array, db)
     #@name = name
     #@type = type
     @db = db
-    @id, @name, @type
+    @id, @name, @type = array
   end
 
   def self.save(name, type, id)
