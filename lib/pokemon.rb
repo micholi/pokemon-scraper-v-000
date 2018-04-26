@@ -20,7 +20,7 @@ class Pokemon
   end
 
   def alter(num, db)
-    UPDATE pokemon SET hp = hp WHERE
+    #UPDATE pokemon SET hp = hp WHERE
   end
 
 end
