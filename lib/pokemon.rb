@@ -1,5 +1,3 @@
-require 'pry'
-
 class Pokemon
 
   attr_accessor :name, :type, :db, :id, :hp
@@ -23,7 +21,7 @@ class Pokemon
 
   def alter_hp(new_hp, db)
     db.execute("UPDATE pokemon SET hp = ? WHERE id = ?", new_hp, id)
-    
+
   end
 
 end
