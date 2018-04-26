@@ -6,8 +6,8 @@ class Pokemon
     @name = name
   end
 
-  def self.save(name, type, id)
-
+  def self.save(id, name, type)
+    self.new(id, name, type)
   end
 
 end
