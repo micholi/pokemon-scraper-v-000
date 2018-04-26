@@ -6,7 +6,7 @@ class Pokemon
     #@name = name
     #@type = type
     @db = db
-    @id, @name, @type = array
+  #  @id, @name, @type = array
   end
 
   def self.save(name, type, id, db)
