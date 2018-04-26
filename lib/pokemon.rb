@@ -2,14 +2,14 @@ class Pokemon
 
   attr_accessor :name, :type, :db, :id
 
-  def initialize(array, db)
+  #def initialize(array, db)
     #@name = name
     #@type = type
-    @db = db
+  #  @db = db
   #  @id, @name, @type = array
   end
 
-  def self.save(name, type, id, db)
+  def self.save(name, type, db)
     database_connection.execute("INSERT INTO db (name, type, id) VALUES (?, ?, ?)", name, type, id)
   end
 
