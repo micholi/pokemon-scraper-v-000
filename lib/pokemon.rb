@@ -6,4 +6,9 @@ class Pokemon
     @name = name
   end
 
+  def self.save
+    db.each do |id|
+    end
+  end
+
 end
