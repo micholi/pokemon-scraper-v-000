@@ -8,6 +8,7 @@ class Pokemon
 
   def self.save
     db.each do |id|
+      id = self
     end
   end
 
