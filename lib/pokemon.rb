@@ -19,7 +19,7 @@ class Pokemon
     self.new(id: new_pokemon[0], name: new_pokemon[1], type: new_pokemon[2], db: db)
   end
 
-  def alter(num, db)
+  def alter_hp(num, db)
     UPDATE pokemon SET hp = num
   end
 
