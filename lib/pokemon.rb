@@ -12,4 +12,8 @@ class Pokemon
     self.new(name, type, id)
   end
 
+  def self.find
+
+  end
+
 end
