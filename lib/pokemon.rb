@@ -9,7 +9,7 @@ class Pokemon
   end
 
   def self.save(name, type, id)
-    self.new(name, type, id)
+    self.new(self.name, self.type, self.id)
   end
 
   def self.find
